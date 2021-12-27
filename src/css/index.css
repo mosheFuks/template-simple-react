@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*Inicio lases para el fom del navBar*/
+.margin{
+  margin-left: 600px;
+}
+
+.inline{
+  display: flex;
+}
+
+/*Fin clases del form del navBar*/
+
+/*Cambiar el tamanio de las imagenes del carousel*/
+.imgCarousel{
+  height: 400px;
+}
+
+.fondo{
+  background-color: rgb(255, 196, 0);
+}
+
+.marginCard{
+  margin-bottom: 25px;
+}
+
+/*Footer*/
+.footer{
+  text-align: center;
+}
+
+.color{
+  background-color: red;
+}
+
+
