@@ -28,12 +28,13 @@ code {
   height: 400px;
 }
 
-.fondo{
-  background-color: rgb(255, 196, 0);
+.fondoCards{
+  background-color: rgb(196, 209, 20);
 }
 
 .marginCard{
-  margin-bottom: 25px;
+  display: flex;
+  margin-bottom: 5px;
 }
 
 /*Footer*/
@@ -42,7 +43,7 @@ code {
 }
 
 .color{
-  background-color: red;
+  background-color: rgb(25, 0, 255);
 }
 
 

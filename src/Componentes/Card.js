@@ -1,6 +1,7 @@
-import maggie from '../img/imagenes/maggie.jpg'
-import homero from '../img/imagenes/homer.jpg'
-import bart from '../img/imagenes/bart.jpg'
+import maggie from '../Componentes/img/imagenes/maggie.jpg'
+import homero from '../Componentes/img/imagenes/homer.jpg'
+import bart from '../Componentes/img/imagenes/bart.jpg'
+
 import React from "react";
 
 class Card extends React.Component {
@@ -12,9 +13,9 @@ class Card extends React.Component {
     }
     render() { 
         return (
-        <div class="row mt-3 row-cols-1 row-cols-md-3 g-4 fondo">
-            <div class="col marginCard">
-                <div class="card" style={{width: "18rem"}}>
+        <div className="row mt-3 row-cols-1 row-cols-md-3 g-4 fondoCards">
+            <div className="col marginCard">
+                <div className="card" style={{width: "18rem"}}>
                 <img src={maggie} className="card-img-top" alt="Maggie" />
                     <div className="card-body">
                         <h5 className="card-title">Maggie</h5>

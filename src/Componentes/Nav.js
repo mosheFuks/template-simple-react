@@ -1,5 +1,6 @@
-import imgnavbar from '../img/imagenes/header-simpsons.gif'
+import imgnavbar from '../Componentes/img/imagenes/header-simpsons.gif'
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 class Nav extends React.Component {
@@ -14,20 +15,19 @@ class Nav extends React.Component {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item active">
-                            <a className="nav-link" href="#">Inicio</a>
+                            <Link className="nav-link" aria-current="page" to="/">Inicio</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Blog</a>
+                            <Link className="nav-link" to="/blog">Blog</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Contacto</a>
+                            <Link className="nav-link" to="/formulario">Formulario</Link>
                         </li>
                     </ul>
-                    <form class="d-flex margin">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" / >
-                        <button class="btn btn-outline-danger" type="submit">Busqueda</button>
+                    <form className="d-flex margin">
+                        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" / >
+                        <button className="btn btn-outline-danger" type="submit">Busqueda</button>
                     </form>
-                    
                 </div>
             </nav>
         );

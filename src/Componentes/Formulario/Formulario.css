@@ -1,0 +1,15 @@
+.fondo{
+    background-color: rgb(207,204,47);
+    height: 400px;
+}
+
+.fondoForm{
+    position: absolute;
+    margin-left: 500px;
+    height: 300px;
+    width: 600px;
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: white;
+}

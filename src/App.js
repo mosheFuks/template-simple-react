@@ -1,16 +1,24 @@
 //import logo from '../src/img/logo-circular-texto.png';
-import Card from './Componentes.js/Card.js';
-import Carousel from './Componentes.js/Carousel.js';
-import Footer from './Componentes.js/Footer.js';
-import Nav from './Componentes.js/Nav.js'
+import { HashRouter as Router, Routes, Route} from 'react-router-dom'
+import Nav from './Componentes/Nav';
+import Footer from './Componentes/Footer'
+import Blog from "./Componentes/Blog"
+import Formulario from "./Componentes/Formulario"
+import Home from "./Componentes/Home"
 
 function App() {
   return (
     <div className="container-fluid">
-      <Nav />
-      <Carousel />
-      <Card />
-      <Footer />
+      <Router >
+        <Nav />
+        <Routes>
+          <Route path="" element={<Home />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/formulario" element={<Formulario />} />
+        </Routes>
+        <Footer />
+        
+      </Router>
     </div>
   );
 }

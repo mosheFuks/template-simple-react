@@ -1,6 +1,8 @@
-import img1 from '../img/imagenes/carrousel-1.jpg'
-import img2 from '../img/imagenes/carrousel-2.jpg'
-import img3 from '../img/imagenes/carrousel-3.jpg'
+
+import img1 from '../Componentes/img/imagenes/carrousel-1.jpg'
+import img2 from '../Componentes/img/imagenes/carrousel-2.jpg'
+import img3 from '../Componentes/img/imagenes/carrousel-3.jpg'
+
 import React from 'react';
 
 class Carousel extends React.Component {
@@ -13,7 +15,7 @@ class Carousel extends React.Component {
         <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                <   img src={img3} className="d-block imgCarousel" alt="Primera Imagen" />
+                    <img src={img3} className="d-block imgCarousel" alt="Primera Imagen" />
                 </div>
                 <div className="carousel-item">
                     <img src={img2} className="d-block imgCarousel" alt="Segunda Imagen" />
